@@ -28,12 +28,12 @@ import React from 'react'
 
 //Since JSX is written in only one div therefore we can apply rules of one liner ES6 Arrow Functions
 
-// const FunctionalComponent = () =>
-//   <>
-//     <h1>Functional Components</h1>
-//   </>
+const FunctionalComponent = () =>
+  <>
+    <h1>Functional Components</h1>
+  </>
 
 
-// export default FunctionalComponent;
+export default FunctionalComponent;
 
 //-------------------- ES6 Functional Component --------------------
