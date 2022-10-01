@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 //-------------------- Props Functional Component --------------------
 // import React from 'react'
 
-function FuncProps(props) {
+function FuncProps(props) {// const FuncProps=props=><>Hello</>
     return (
         <>
             <h1>Hello {props.funcName}. You are the best {props.funcNick}</h1>
