@@ -1,8 +1,8 @@
 import './App.css';
 // import FunctionalComponent from './Learning-React/FunctionalComponent';
 // import ClassComponent from './Learning-React/ClassComponent';
-// import Props from './Learning-React/Props';
-import StateClass from './Learning-React/StateClass';
+import { ClassProps, FuncProps } from './Learning-React/Props';
+// import StateClass from './Learning-React/StateClass';
 
 export default function App() {
   return (
@@ -20,15 +20,15 @@ export default function App() {
       {/* ---------------------------------------- Props ---------------------------------------- */}
 
       {/* -------------------- Props Functional Component -------------------- */}
-      {/* <Props name="Saaim" nick="Web Developer" />
-      <Props name="Ahmed" nick="Web Designer" />
-      <Props name="Khan" nick="Freelancer" /> */}
+      <FuncProps funcName="Saaim" funcNick="Web Developer" />
+      <FuncProps funcName="Ahmed" funcNick="Web Designer" />
+      <FuncProps funcName="Khan" funcNick="Freelancer" />
       {/* -------------------- Props Functional Component -------------------- */}
 
       {/* -------------------- Props Class Component -------------------- */}
-      {/* <Props name="Saaim" nick="Web Developer" />
-      <Props name="Ahmed" nick="Web Designer" />
-      <Props name="Khan" nick="Freelancer" /> */}
+      <ClassProps name="Saaim" nick="Web Developer" />
+      <ClassProps name="Ahmed" nick="Web Designer" />
+      <ClassProps name="Khan" nick="Freelancer" />
       {/* -------------------- Props Class Component -------------------- */}
 
       {/* ---------------------------------------- Props ---------------------------------------- */}
@@ -36,7 +36,7 @@ export default function App() {
 
       {/* ---------------------------------------- Props ---------------------------------------- */}
       {/* -------------------- State Class Component -------------------- */}
-      <StateClass />
+      {/* <StateClass /> */}
       {/* -------------------- State Class Component -------------------- */}
 
       {/* -------------------- State Function Component -------------------- */}
