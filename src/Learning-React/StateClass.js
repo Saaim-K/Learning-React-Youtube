@@ -3,7 +3,7 @@
 import React, { Component } from 'react'
 
 export default class StateClass extends Component {
-    constructor() { 
+    constructor() {
         super()
         //super() Refers to the parent class.If we are extending/inheriting anything from parent class(i.e. now Components) or any other class we use super() keyword.
 
@@ -14,11 +14,12 @@ export default class StateClass extends Component {
     }
 
     changeMessage() {
-        this.setState({
-            message: 'Congrats you switched the state',
-            number: this.state.number + 1
-        }
-        )
+        this.setState// set state has two parameter:first is object parameter and the second is a callback function
+            ({//Object Parameter
+                message: 'Congrats you switched the state',
+                number: this.state.number + 1
+            }),
+            () => { console.log(this.state.number + 1) }//Callback Function
     }
 
     render() {
