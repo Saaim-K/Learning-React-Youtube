@@ -5,7 +5,7 @@ import './App.css';
 // import StateClass from './Learning-React/StateClass';
 // import FuncDestructuring from './Learning-React/Destructuring';
 // import ClassDestructuring from './Learning-React/Destructuring';
-import { ClassEventHandling,FuncEventHandling } from './Learning-React/EventHandling';
+// import { ClassEventHandling,FuncEventHandling } from './Learning-React/EventHandling';
 
 export default function App() {
   return (
@@ -60,8 +60,8 @@ export default function App() {
 
 
       {/* ---------------------------------------- Event Handler ---------------------------------------- */}
-      <FuncEventHandling />
-      <ClassEventHandling />
+      {/* <FuncEventHandling />
+      <ClassEventHandling /> */}
       {/* ---------------------------------------- Event Handler ---------------------------------------- */}
 
 
