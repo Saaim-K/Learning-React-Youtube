@@ -1,5 +1,6 @@
 import React from 'react'
 //inline stying will be passed as props. It will be the style object literal
+//CSS in an object will become string as now the style will become object's property and value
 const StylingComponent = () => {
     const color = {
         color: 'white',
