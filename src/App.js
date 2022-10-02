@@ -3,6 +3,8 @@ import './App.css';
 // import ClassComponent from './Learning-React/ClassComponent';
 // import { ClassProps, FuncProps } from './Learning-React/Props';
 // import StateClass from './Learning-React/StateClass';
+// import FuncDestructuring from './Learning-React/Destructuring';
+// import ClassDestructuring from './Learning-React/Destructuring';
 
 export default function App() {
   return (
@@ -34,7 +36,7 @@ export default function App() {
       {/* ---------------------------------------- Props ---------------------------------------- */}
 
 
-      {/* ---------------------------------------- Props ---------------------------------------- */}
+      {/* ---------------------------------------- State ---------------------------------------- */}
       {/* -------------------- State Class Component -------------------- */}
       {/* <StateClass /> */}
       {/* -------------------- State Class Component -------------------- */}
@@ -45,9 +47,15 @@ export default function App() {
       {/* -------------------- State Function Component -------------------- */}
 
 
-      {/* ---------------------------------------- Props ---------------------------------------- */}
+      {/* ---------------------------------------- State ---------------------------------------- */}
 
 
+      {/* ---------------------------------------- Destructuring ---------------------------------------- */}
+      
+      {/* <FuncDestructuring name='Bruce Wayne' heroName='Batman' />
+      <ClassDestructuring name='Tony Stark' heroName='Spiderman' /> */}
+
+      {/* ---------------------------------------- Destructuring ---------------------------------------- */}
 
 
 
