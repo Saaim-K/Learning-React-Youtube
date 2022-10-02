@@ -1,4 +1,4 @@
-//-------------------- State Functional Component --------------------
+//-------------------- State Class Component --------------------
 
 import React, { Component } from 'react'
 
@@ -32,3 +32,4 @@ export default class StateClass extends Component {
         )
     }
 }
+//-------------------- State Class Component --------------------
