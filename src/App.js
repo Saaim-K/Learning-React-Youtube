@@ -1,7 +1,7 @@
 import './App.css';
 // import FunctionalComponent from './Learning-React/1-FunctionalComponent';
-import ClassComponent from './Learning-React/2-ClassComponent';
-// import { ClassProps, FuncProps } from './Learning-React/Props';
+// import ClassComponent from './Learning-React/2-ClassComponent';
+import { ClassProps, FuncProps } from './Learning-React/3-Props';
 // import StateClass from './Learning-React/StateClass';
 // import FuncDestructuring from './Learning-React/Destructuring';
 // import ClassDestructuring from './Learning-React/Destructuring';
@@ -18,22 +18,22 @@ export default function App() {
 
 
       {/* ---------------------------------------- Class Components ---------------------------------------- */}
-      <ClassComponent />
+      {/* <ClassComponent /> */}
       {/* ---------------------------------------- Class Components ---------------------------------------- */}
 
 
       {/* ---------------------------------------- Props ---------------------------------------- */}
 
       {/* -------------------- Props Functional Component -------------------- */}
-      {/* <FuncProps funcName="Saaim" funcNick="Web Developer" />
+      <FuncProps funcName="Saaim" funcNick="Web Developer" />
       <FuncProps funcName="Ahmed" funcNick="Web Designer" />
-      <FuncProps funcName="Khan" funcNick="Freelancer" /> */}
+      <FuncProps funcName="Khan" funcNick="Freelancer" />
       {/* -------------------- Props Functional Component -------------------- */}
 
       {/* -------------------- Props Class Component -------------------- */}
-      {/* <ClassProps name="Saaim" nick="Web Developer" />
+      <ClassProps name="Saaim" nick="Web Developer" />
       <ClassProps name="Ahmed" nick="Web Designer" />
-      <ClassProps name="Khan" nick="Freelancer" /> */}
+      <ClassProps name="Khan" nick="Freelancer" />
       {/* -------------------- Props Class Component -------------------- */}
 
       {/* ---------------------------------------- Props ---------------------------------------- */}
