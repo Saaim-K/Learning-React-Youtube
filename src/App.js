@@ -1,6 +1,6 @@
 import './App.css';
-import FunctionalComponent from './Learning-React/1-FunctionalComponent';
-// import ClassComponent from './Learning-React/ClassComponent';
+// import FunctionalComponent from './Learning-React/1-FunctionalComponent';
+import ClassComponent from './Learning-React/2-ClassComponent';
 // import { ClassProps, FuncProps } from './Learning-React/Props';
 // import StateClass from './Learning-React/StateClass';
 // import FuncDestructuring from './Learning-React/Destructuring';
@@ -13,12 +13,12 @@ export default function App() {
   return (
     <>
       {/* ---------------------------------------- Functional Components ---------------------------------------- */}
-      <FunctionalComponent />
+      {/* <FunctionalComponent /> */}
       {/* ---------------------------------------- Functional Components ---------------------------------------- */}
 
 
       {/* ---------------------------------------- Class Components ---------------------------------------- */}
-      {/* <ClassComponent /> */}
+      <ClassComponent />
       {/* ---------------------------------------- Class Components ---------------------------------------- */}
 
 
