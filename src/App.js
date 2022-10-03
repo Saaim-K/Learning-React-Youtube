@@ -1,5 +1,5 @@
 import './App.css';
-// import FunctionalComponent from './Learning-React/FunctionalComponent';
+import FunctionalComponent from './Learning-React/1-FunctionalComponent';
 // import ClassComponent from './Learning-React/ClassComponent';
 // import { ClassProps, FuncProps } from './Learning-React/Props';
 // import StateClass from './Learning-React/StateClass';
@@ -13,7 +13,7 @@ export default function App() {
   return (
     <>
       {/* ---------------------------------------- Functional Components ---------------------------------------- */}
-      {/* <FunctionalComponent /> */}
+      <FunctionalComponent />
       {/* ---------------------------------------- Functional Components ---------------------------------------- */}
 
 
